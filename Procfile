@@ -1,1 +1,1 @@
-web: java -jar build/libs/gs-rest-service-0.1.0.jar -Dserver.port=5005
+web: java -jar build/libs/gs-rest-service-0.1.0.jar --port 5005
