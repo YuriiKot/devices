@@ -11,9 +11,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Backend_main" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.jsonpath:json-path:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.8.11.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.RELEASE" level="project" />
@@ -32,9 +32,9 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.5.1" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.3" level="project" />
