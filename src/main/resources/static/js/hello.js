@@ -1,7 +1,7 @@
 
 var devices
 var xhr = new XMLHttpRequest();
-xhr.open('GET', "http://127.0.0.1:8080/devices?username=yurii&password=kot", true);
+xhr.open('GET', "http://127.0.0.1:5000/devices?username=yurii&password=kot", true);
 xhr.send();
 
 xhr.onreadystatechange = processRequest;
@@ -42,7 +42,7 @@ function onMinusClick(i){
 
     var devices
     var request = new XMLHttpRequest();
-    request.open('GET', "http://127.0.0.1:8080/updateTargetTemperature?username=yurii&password=kot&deviceId={0}&temp={1}".format(device.deviceId, device.targetTemperature - 1), true);
+    request.open('GET', "http://127.0.0.1:5000/updateTargetTemperature?username=yurii&password=kot&deviceId={0}&temp={1}".format(device.deviceId, device.targetTemperature - 1), true);
     request.send();
 
     request.onreadystatechange = function(e){
@@ -59,7 +59,7 @@ function onPlusClick(i){
 
         var devices
         var request = new XMLHttpRequest();
-        request.open('GET', "http://127.0.0.1:8080/updateTargetTemperature?username=yurii&password=kot&deviceId={0}&temp={1}".format(device.deviceId, device.targetTemperature + 1), true);
+        request.open('GET', "http://127.0.0.1:5000/updateTargetTemperature?username=yurii&password=kot&deviceId={0}&temp={1}".format(device.deviceId, device.targetTemperature + 1), true);
         request.send();
 
         request.onreadystatechange = function(e){

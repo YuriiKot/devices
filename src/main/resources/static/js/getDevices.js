@@ -1,7 +1,7 @@
 
 
 function getUser(deviceId, targetTemp, realTemp, callback) {
-    var devicesUrl = "http://localhost:8080/devices";
+    var devicesUrl = "http://localhost:5000/devices";
     var params = "?username=yurii&password=kot";
 
     var xhttp = new XMLHttpRequest();
