@@ -34,7 +34,7 @@ public class UserController extends BaseController {
         return ResponseEntity.status(200).body(users);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = "http://localhost:5000")
     @RequestMapping("/devices")
     public ResponseEntity getDevices(String username, String password) {
         ArrayList<Device> devices = new ArrayList<>();
@@ -78,7 +78,7 @@ public class UserController extends BaseController {
         return ResponseEntity.status(200).build();
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = "http://localhost:5000")
     @RequestMapping("/updateTargetTemperature")
     public ResponseEntity updateTargetTemperature(@RequestParam String username, @RequestParam String password,
                                                   @RequestParam Integer deviceId, @RequestParam Integer temp) {
@@ -94,7 +94,7 @@ public class UserController extends BaseController {
         return ResponseEntity.status(200).build();
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = "http://localhost:5000")
     @RequestMapping("/updateRealTemperature")
     public ResponseEntity updateRealTemperature(@RequestParam String username, @RequestParam String password,
                                                 @RequestParam Integer deviceId, @RequestParam Integer temp) {
